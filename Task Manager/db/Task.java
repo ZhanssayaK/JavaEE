@@ -5,7 +5,7 @@ public class Task {
     private String name;
     private String description;
     private String date;
-    private String flag="NO";
+    private String flag="NO"; // Boolean status;
     public Task(){}
     public Task(int id, String name, String description, String date) {
         this.id = id;
